@@ -1,10 +1,10 @@
 # Bitmasking
 
 ## Bitwise Operators:
- * & AND
- * | OR
- * ~ NOT 
- * ^ XOR
+ * & `AND`
+ * | `OR`
+ * ~ `NOT` 
+ * ^ `XOR`
  
 All of the abaove four are binary operators.
  
@@ -59,5 +59,15 @@ All of the abaove four are binary operators.
  * Leftshift it by i number of places.
  * AND it(mask) with the given number.
 
-### Clear Range of bits:
+### Clear Range of bits from i to j:
+ * Create a maskA of all ones. Left shift it (j+1) times.
+ * Create a maskB [(1<<i) -1].
+ * Get mask by maskA | maskB.
+ * AND the mask with the number.
+ 
+
+<hr/>
+
+## <a href="https://github.com/sanya2508/Bitmasking/blob/master/Replace%20bits%20in%20N%20by%20M.cpp">Replace bits in N by M </a>
+*You are given two 32-bit numbers, N and M, and two bit positions, i and j. Write a method to set all bits between i and j in N equal to M (e.g., M becomes a substring of N located at i and starting at j).*
  * 
