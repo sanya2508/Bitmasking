@@ -6,7 +6,7 @@
  * ~ `NOT` 
  * ^ `XOR`
  
-All of the abaove four are binary operators.
+All of the above four are binary operators.
  
  * EXOR of two numbers are same.
  * NOT will flip all the bits.
